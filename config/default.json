@@ -1,4 +1,4 @@
 {
-  "serverPort": 5000,
+  "serverPort": 80,
   "dbUrl": "mongodb+srv://user:qwer123@cluster0.eudcipq.mongodb.net/?retryWrites=true&w=majority"
 }
