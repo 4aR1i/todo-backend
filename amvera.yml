@@ -1,0 +1,9 @@
+meta:
+  environment: node
+  toolchain:
+    name: npm
+    version: 16
+
+run:
+  scriptName: index.js
+  containerPort: 5000

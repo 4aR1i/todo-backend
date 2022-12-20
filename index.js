@@ -5,7 +5,7 @@ import projectRouter from './routes/project.routes.js';
 import corsMiddleware from './middleware/cors.middleware.js';
 
 const app = express();
-const PORT = process.env.PORT || config.get('serverPort');
+const PORT = config.get('serverPort');
 
 app.use(corsMiddleware);
 app.use(express.json());
